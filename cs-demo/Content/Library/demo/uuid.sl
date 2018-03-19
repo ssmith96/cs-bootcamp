@@ -21,5 +21,5 @@ operation:
       - uuid: ${uuid}
 
     results:
-      - SUCCESS: ${returnCode == '0'}
+      - SUCCESS: ${returnCode == '1'}
       - FAILURE
